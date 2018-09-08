@@ -8,6 +8,9 @@
 \usepackage{mathrsfs}
 \usepackage{hyperref}
 
+\usepackage{pgf}
+\usepackage[export]{adjustbox}
+
 \usepackage{lipsum}
 \usepackage{transparent}
 \usepackage{eso-pic}
@@ -21,6 +24,9 @@
 \usepackage{xcolor}
 
 \usepackage{styles/style}
+
+\usepackage{fontspec}
+%\setmainfont[fonts/M\_PLUS\_Rounded\_1c/]{MPLUSRounded1c-Regular.ttf}
 
 \newcommand\rurl[1]{%
 	\href{http://#1}{\nolinkurl{#1}}%
@@ -71,10 +77,11 @@
 	\makebox[8.35in][c]{
 		\shortstack[c]{
 			\vspace{0.31in}\\
-			%\hspace{-1.8cm}
 			\hspace{-0.8cm}
-			\transparent{0.09}\includegraphics[scale=0.3]{images/cerebro-transparente-blanco}\\
-			%\vspace{5.505in}
+			%\transparent{0.09}
+			\pgfsetfillopacity{0.09}% for LuaTex
+			\includegraphics[scale=0.3]{images/cerebro-transparente-blanco}\\
+			\pgfsetfillopacity{1}% for LuaTex
 			\vspace{0.11in}
 		}
 	}
