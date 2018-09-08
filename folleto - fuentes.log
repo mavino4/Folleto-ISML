@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.7.29)  8 SEP 2018 11:30
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.7.29)  8 SEP 2018 11:37
  restricted system commands enabled.
 **"folleto - fuentes.tex"
 ("./folleto - fuentes.tex"
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.108 seconds
+luaotfload | main : initialization completed in 0.106 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1752,36 +1752,36 @@ mono12-regular.luc)
 File: images/QR_Code_Grupo_La_Paz_School_of_AI.png Graphic file (type png)
 <use images/QR_Code_Grupo_La_Paz_School_of_AI.png>
 Package luatex.def Info: images/QR_Code_Grupo_La_Paz_School_of_AI.png  used on i
-nput line 286.
+nput line 291.
 (luatex.def)             Requested size: 195.73811pt x 195.73811pt.
 <images/QR_Code_Formulario.png, id=59, 3011.25pt x 3011.25pt>
 File: images/QR_Code_Formulario.png Graphic file (type png)
 <use images/QR_Code_Formulario.png>
-Package luatex.def Info: images/QR_Code_Formulario.png  used on input line 286.
+Package luatex.def Info: images/QR_Code_Formulario.png  used on input line 291.
 (luatex.def)             Requested size: 195.73811pt x 195.73811pt.
-LaTeX Font Info:    Calculating math sizes for size <17> on input line 286.
+LaTeX Font Info:    Calculating math sizes for size <17> on input line 291.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17> on input line 286.
+(Font)              <17> on input line 291.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.89995> on input line 286.
+(Font)              <11.89995> on input line 291.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.5> on input line 286.
+(Font)              <8.5> on input line 291.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 286.
+(Font)              size <8> substituted on input line 291.
 
 File: images/pie-transparente.png Graphic file (type png)
 <use images/pie-transparente.png>
-Package luatex.def Info: images/pie-transparente.png  used on input line 288.
+Package luatex.def Info: images/pie-transparente.png  used on input line 293.
 (luatex.def)             Requested size: 578.15344pt x 76.60532pt.
 
-Overfull \hbox (61.00941pt too wide) in paragraph at lines 266--289
+Overfull \hbox (61.00941pt too wide) in paragraph at lines 266--294
 []|  [][][][][][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 266--289
+Overfull \hbox (6.0pt too wide) in paragraph at lines 266--294
 [][][][][][] 
  []
 
@@ -1824,41 +1824,41 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 266--289
 <images/ESTADISTICA.png, id=68, 1111.90407pt x 675.27281pt>
 File: images/ESTADISTICA.png Graphic file (type png)
 <use images/ESTADISTICA.png>
-Package luatex.def Info: images/ESTADISTICA.png  used on input line 310.
+Package luatex.def Info: images/ESTADISTICA.png  used on input line 315.
 (luatex.def)             Requested size: 177.90828pt x 108.04585pt.
 <images/INFORMATICA.png, id=69, 166.6225pt x 168.63pt>
 File: images/INFORMATICA.png Graphic file (type png)
 <use images/INFORMATICA.png>
-Package luatex.def Info: images/INFORMATICA.png  used on input line 310.
+Package luatex.def Info: images/INFORMATICA.png  used on input line 315.
 (luatex.def)             Requested size: 108.30333pt x 109.60818pt.
 <images/CEFAC.png, id=70, 721.94719pt x 511.15968pt>
 File: images/CEFAC.png Graphic file (type png)
 <use images/CEFAC.png>
-Package luatex.def Info: images/CEFAC.png  used on input line 310.
+Package luatex.def Info: images/CEFAC.png  used on input line 315.
 (luatex.def)             Requested size: 129.94489pt x 92.00476pt.
 File: images/pie-transparente.png Graphic file (type png)
 <use images/pie-transparente.png>
-Package luatex.def Info: images/pie-transparente.png  used on input line 312.
+Package luatex.def Info: images/pie-transparente.png  used on input line 317.
 (luatex.def)             Requested size: 578.15344pt x 76.60532pt.
 
-Overfull \hbox (0.68126pt too wide) in paragraph at lines 293--313
+Overfull \hbox (0.68126pt too wide) in paragraph at lines 298--318
 [] [][][][][][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 293--313
+Overfull \hbox (6.0pt too wide) in paragraph at lines 298--318
 [][][][][][] 
  []
 
 [6
 
 <./images/ESTADISTICA.png><./images/INFORMATICA.png><./images/CEFAC.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
 
 ("./folleto - fuentes.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
 Package rerunfilecheck Info: File `"folleto - fuentes".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1866,7 +1866,7 @@ Package rerunfilecheck Info: File `"folleto - fuentes".out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1875,7 +1875,7 @@ Here is how much of LuaTeX's memory you used:
  493 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 59 glue_spec, 6 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:526,3:144,4:75,5:76,6:583,7:511,8:27,9:188,10:11,11:59
+   avail lists: 1:1,2:526,3:144,4:75,5:80,6:583,7:511,8:27,9:188,10:11,11:59
  31426 multiletter control sequences out of 65536+600000
  113 fonts using 21974063 bytes
  48i,12n,66p,428b,516s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1889,7 +1889,7 @@ ist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf></usr/share/texlive/texmf-di
 st/fonts/truetype/typoland/lato/Lato-Bold.ttf></usr/share/texmf/fonts/opentype/p
 ublic/lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/pub
 lic/gfsdidot/GFSDidot.otf>
-Output written on folleto - fuentes.pdf (6 pages, 2305138 bytes).
+Output written on folleto - fuentes.pdf (6 pages, 2310103 bytes).
 
 PDF statistics: 143 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
