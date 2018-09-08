@@ -1,7 +1,7 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.7.29)  8 SEP 2018 01:13
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.7.29)  8 SEP 2018 11:30
  restricted system commands enabled.
-**"folleto - horizontal.tex"
-("./folleto - horizontal.tex"
+**"folleto - fuentes.tex"
+("./folleto - fuentes.tex"
 LaTeX2e <2017-04-15>
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.100 seconds
+luaotfload | main : initialization completed in 0.108 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1144,25 +1144,253 @@ LaTeX Info: Redefining \- on input line 3749.
 . 
 . Defining command \liningnums with sig. 'm' on line 3848.
 .................................................
-)) ("./folleto - horizontal.aux")
-\openout1 = folleto - horizontal.aux
+))
+luaotfload | cache : Lookup cache loaded from /home/rafael/.texlive2017/texmf-va
+r/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /home/rafael
+/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/dejavusansmono.luc)
+\g__fontspec_family_DejaVuSansMono_int=\count307
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/de
+javusansmono-boldoblique.luc)(load luc: /home/rafael/.texlive2017/texmf-var/luat
+ex-cache/generic/fonts/otl/dejavusansmono-bold.luc)(load luc: /home/rafael/.texl
+ive2017/texmf-var/luatex-cache/generic/fonts/otl/dejavusansmono-oblique.luc)
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 27
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 29
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 28
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSansMono(0)' created for font 'DejaVuSansMono' with
+. options [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"DejaVuSansMono:mode=node;script=latn;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"DejaVuSansMono/B:mode=node;script=latn;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->"DejaVuSansMono/I:mode=node;script=latn;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"DejaVuSansMono/BI:mode=node;script=latn;language=DFLT;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/so
+urcecodepro-regular.luc)
+\g__fontspec_family_SourceCodePro_int=\count308
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/so
+urcecodepro-boldit.luc)(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cac
+he/generic/fonts/otl/sourcecodepro-bold.luc)(load luc: /home/rafael/.texlive2017
+/texmf-var/luatex-cache/generic/fonts/otl/sourcecodepro-regularit.luc)
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 31
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 33
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 34
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 32
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SourceCodePro(0)' created for font 'SourceCodePro' with options
+. [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"SourceCodePro:mode=node;script=latn;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"SourceCodePro/B:mode=node;script=latn;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->"SourceCodePro/I:mode=node;script=latn;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"SourceCodePro/BI:mode=node;script=latn;language=DFLT;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/dr
+oidsansmono.luc)
+luaotfload | aux : font no 35 (nil) defines no feature for script latn
+luaotfload | aux : no font with id 35
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font "DroidSansMono" does not contain any OpenType `Script' information.
+.................................................
+\g__fontspec_family_DroidSansMono_int=\count309
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "DroidSansMono/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "DroidSansMono/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "DroidSansMono/I" (it probably doesn't exist).
+.................................................
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script  wit
+h language 
+luaotfload | aux : no font with id 35
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DroidSansMono(0)' created for font 'DroidSansMono' with options
+. [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"DroidSansMono:mode=node;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/ro
+boto-regular.luc)
+\g__fontspec_family_Roboto_int=\count310
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/ro
+boto-bolditalic.luc)(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/
+generic/fonts/otl/roboto-bold.luc)(load luc: /home/rafael/.texlive2017/texmf-var
+/luatex-cache/generic/fonts/otl/roboto-italic.luc)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Roboto(0)' created for font 'Roboto' with options [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"Roboto:mode=node;script=latn;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"Roboto:mode=node;script=latn;language=DFLT;+smcp;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"Roboto/B:mode=node;script=latn;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->"Roboto/B:mode=node;script=latn;language=DFLT;+smcp;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"Roboto/I:mode=node;script=latn;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"Roboto/I:mode=node;script=latn;language=DFLT;+smcp;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"Roboto/BI:mode=node;script=latn;language=DFLT;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->"Roboto/BI:mode=node;script=latn;language=DFLT;+smcp;"
+.................................................
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/gf
+sdidot.luc)
+\g__fontspec_family_GFSDidot_int=\count311
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/gf
+sartemisiaboldit.luc)(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache
+/generic/fonts/otl/gfsdidotbold.luc)(load luc: /home/rafael/.texlive2017/texmf-v
+ar/luatex-cache/generic/fonts/otl/gfsdidotitalic.luc)
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 42
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 43
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 41
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'GFSDidot(0)' created for font 'GFSDidot' with options [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"GFSDidot:mode=node;script=latn;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"GFSDidot:mode=node;script=latn;language=DFLT;+smcp;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"GFSDidot/B:mode=node;script=latn;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->"GFSDidot/I:mode=node;script=latn;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"GFSDidot/BI:mode=node;script=latn;language=DFLT;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/la
+to-regular.luc)
+\g__fontspec_family_Lato_int=\count312
+(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/la
+to-bolditalic.luc)(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/ge
+neric/fonts/otl/lato-bold.luc)(load luc: /home/rafael/.texlive2017/texmf-var/lua
+tex-cache/generic/fonts/otl/lato-italic.luc)
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 44
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 46
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 47
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 45
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Lato(0)' created for font 'Lato' with options [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"Lato:mode=node;script=latn;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"Lato/B:mode=node;script=latn;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->"Lato/I:mode=node;script=latn;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"Lato/BI:mode=node;script=latn;language=DFLT;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+ ("./folleto - fuentes.aux")
+\openout1 = folleto - fuentes.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1198,19 +1426,19 @@ LaTeX Font Info:    ... okay on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count307
+\c@lstlisting=\count313
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
+\scratchcounter=\count314
 \scratchdimen=\dimen277
 \scratchbox=\box82
-\nofMPsegments=\count309
-\nofMParguments=\count310
+\nofMPsegments=\count315
+\nofMParguments=\count316
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count311
+\MPscratchCnt=\count317
 \MPscratchDim=\dimen278
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
 \everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1230,7 +1458,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 \AtBeginShipoutBox=\box83
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1238,16 +1466,16 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count314
+\c@section@level=\count320
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
-("./folleto - horizontal.out") ("./folleto - horizontal.out")
+("./folleto - fuentes.out") ("./folleto - fuentes.out")
 \@outlinefile=\write4
 
-\openout4 = folleto - horizontal.out
+\openout4 = folleto - fuentes.out
 
 ABD: EveryShipout initializing macros
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1283,28 +1511,27 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.8247pt too wide) in paragraph at lines 45--59
+Overfull \hbox (8.8247pt too wide) in paragraph at lines 53--67
 []|  [][][][][][] 
  []
 
 
-Overfull \hbox (1.0007pt too wide) in paragraph at lines 61--63
+Overfull \hbox (1.0007pt too wide) in paragraph at lines 69--71
 []|  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
-(load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
-roman17-regular.luc)
-Overfull \hbox (1.0007pt too wide) in paragraph at lines 67--69
+
+Overfull \hbox (1.0007pt too wide) in paragraph at lines 75--77
 []|  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
@@ -1312,20 +1539,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
 File: images/cerebro-transparente-blanco.png Graphic file (type png)
 <use images/cerebro-transparente-blanco.png>
 Package luatex.def Info: images/cerebro-transparente-blanco.png  used on input l
-ine 88.
+ine 96.
 (luatex.def)             Requested size: 361.35278pt x 361.35278pt.
 
-Overfull \hbox (1.96802pt too wide) in paragraph at lines 74--89
+Overfull \hbox (1.96802pt too wide) in paragraph at lines 82--97
 []|  [][][][][][] 
  []
 
 <images/pie-transparente.png, id=8, 1204.5pt x 159.59625pt>
 File: images/pie-transparente.png Graphic file (type png)
 <use images/pie-transparente.png>
-Package luatex.def Info: images/pie-transparente.png  used on input line 93.
+Package luatex.def Info: images/pie-transparente.png  used on input line 101.
 (luatex.def)             Requested size: 614.28688pt x 81.39299pt.
 
-Overfull \hbox (1.0007pt too wide) in paragraph at lines 92--94
+Overfull \hbox (1.0007pt too wide) in paragraph at lines 100--102
 []  [][][][][][] 
  []
 
@@ -1333,125 +1560,153 @@ Overfull \hbox (1.0007pt too wide) in paragraph at lines 92--94
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./images/cerebro-transparent
-e-blanco.png><./images/pie-transparente.png>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 138.
+e-blanco.png><./images/pie-transparente.png>](load luc: /home/rafael/.texlive201
+7/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc)
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]\TU/DejaVuSansMono(0)/m/n/12 Python para Ma-chine Learn-ing y Cien-cia de
+ []
 
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 146.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 138.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 146.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 138.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 146.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 138.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 146.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 138.
+(Font)              <12> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 138.
+(Font)              <8> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 138.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 138.
+(Font)              <6> on input line 146.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 146.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 138.
+LaTeX Font Info:    Try loading font information for U+msa on input line 146.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 138.
+LaTeX Font Info:    Try loading font information for U+msb on input line 146.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 173.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 180.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14> on input line 173.
+(Font)              <13> on input line 180.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.79996> on input line 173.
+(Font)              <9.09996> on input line 180.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 173.
+(Font)              <6.5> on input line 180.
 
-Overfull \hbox (249.88857pt too wide) in paragraph at lines 97--174
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 180.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 180.
+
+
+Overfull \hbox (234.63033pt too wide) in paragraph at lines 105--181
 []|  [][][][][][] |   [][][][][][] 
  []
 
-
-Overfull \vbox (18.91046pt too high) has occurred while \output is active []
-
-
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+\TU/DejaVuSansMono(0)/m/n/12 Debido a que se hará uso de un lab-o-ra-to-rio,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+\TU/DejaVuSansMono(0)/m/n/12 las com-puta-do-ras serán para los proyec-tos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]\TU/DejaVuSansMono(0)/m/n/12 Las per-sonas que fal-ten más de dos ve-ces,
+ []
+
+
 Overfull \vbox (47.08475pt too high) has occurred while \output is active []
 
 
 [3]
-<images/Ayar-3.png, id=33, 1284.8pt x 1284.8pt>
+<images/Ayar-3.png, id=38, 1284.8pt x 1284.8pt>
 File: images/Ayar-3.png Graphic file (type png)
 <use images/Ayar-3.png>
-Package luatex.def Info: images/Ayar-3.png  used on input line 227.
+Package luatex.def Info: images/Ayar-3.png  used on input line 240.
 (luatex.def)             Requested size: 154.16934pt x 154.16934pt.
-<images/linkedin_logo.png, id=35, 513.92pt x 513.92pt>
+<images/linkedin_logo.png, id=40, 513.92pt x 513.92pt>
 File: images/linkedin_logo.png Graphic file (type png)
 <use images/linkedin_logo.png>
-Package luatex.def Info: images/linkedin_logo.png  used on input line 227.
+Package luatex.def Info: images/linkedin_logo.png  used on input line 240.
 (luatex.def)             Requested size: 20.55328pt x 20.55328pt.
-<images/Marco-3.png, id=36, 1284.8pt x 1284.8pt>
+<images/Marco-3.png, id=41, 1284.8pt x 1284.8pt>
 File: images/Marco-3.png Graphic file (type png)
 <use images/Marco-3.png>
-Package luatex.def Info: images/Marco-3.png  used on input line 237.
+Package luatex.def Info: images/Marco-3.png  used on input line 250.
 (luatex.def)             Requested size: 154.16934pt x 154.16934pt.
 File: images/linkedin_logo.png Graphic file (type png)
 <use images/linkedin_logo.png>
-Package luatex.def Info: images/linkedin_logo.png  used on input line 237.
+Package luatex.def Info: images/linkedin_logo.png  used on input line 250.
 (luatex.def)             Requested size: 20.55328pt x 20.55328pt.
-<images/rafa-3.png, id=38, 1284.8pt x 1284.8pt>
+<images/rafa-3.png, id=43, 1284.8pt x 1284.8pt>
 File: images/rafa-3.png Graphic file (type png)
 <use images/rafa-3.png>
-Package luatex.def Info: images/rafa-3.png  used on input line 246.
+Package luatex.def Info: images/rafa-3.png  used on input line 259.
 (luatex.def)             Requested size: 154.16934pt x 154.16934pt.
 File: images/linkedin_logo.png Graphic file (type png)
 <use images/linkedin_logo.png>
-Package luatex.def Info: images/linkedin_logo.png  used on input line 246.
+Package luatex.def Info: images/linkedin_logo.png  used on input line 259.
 (luatex.def)             Requested size: 20.55328pt x 20.55328pt.
 
-Overfull \hbox (57.809pt too wide) in paragraph at lines 227--250
+Overfull \hbox (57.809pt too wide) in paragraph at lines 240--263
 [][][][][][]
  []
 
 
-Overfull \hbox (18.55255pt too wide) in paragraph at lines 227--250
+Overfull \hbox (18.55255pt too wide) in paragraph at lines 240--263
 |  [][][][][][]
  []
 
 
-Overfull \hbox (57.809pt too wide) in paragraph at lines 227--250
+Overfull \hbox (57.809pt too wide) in paragraph at lines 240--263
 [][][][][][] 
  []
 
@@ -1493,59 +1748,40 @@ Overfull \hbox (57.809pt too wide) in paragraph at lines 227--250
 
 (load luc: /home/rafael/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
 mono12-regular.luc)
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 273.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <15> on input line 273.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.49995> on input line 273.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.5> on input line 273.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 273.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.49995> not available
-(Font)              size <10.95> substituted on input line 273.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 273.
-
-<images/QR_Code_Grupo_La_Paz_School_of_AI.png, id=51, 3011.25pt x 3011.25pt>
+<images/QR_Code_Grupo_La_Paz_School_of_AI.png, id=57, 3011.25pt x 3011.25pt>
 File: images/QR_Code_Grupo_La_Paz_School_of_AI.png Graphic file (type png)
 <use images/QR_Code_Grupo_La_Paz_School_of_AI.png>
 Package luatex.def Info: images/QR_Code_Grupo_La_Paz_School_of_AI.png  used on i
-nput line 273.
+nput line 286.
 (luatex.def)             Requested size: 195.73811pt x 195.73811pt.
-<images/QR_Code_Formulario.png, id=53, 3011.25pt x 3011.25pt>
+<images/QR_Code_Formulario.png, id=59, 3011.25pt x 3011.25pt>
 File: images/QR_Code_Formulario.png Graphic file (type png)
 <use images/QR_Code_Formulario.png>
-Package luatex.def Info: images/QR_Code_Formulario.png  used on input line 273.
+Package luatex.def Info: images/QR_Code_Formulario.png  used on input line 286.
 (luatex.def)             Requested size: 195.73811pt x 195.73811pt.
-LaTeX Font Info:    Calculating math sizes for size <17> on input line 273.
+LaTeX Font Info:    Calculating math sizes for size <17> on input line 286.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17> on input line 273.
+(Font)              <17> on input line 286.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.89995> on input line 273.
+(Font)              <11.89995> on input line 286.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.5> on input line 273.
+(Font)              <8.5> on input line 286.
+
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 273.
+(Font)              size <8> substituted on input line 286.
 
 File: images/pie-transparente.png Graphic file (type png)
 <use images/pie-transparente.png>
-Package luatex.def Info: images/pie-transparente.png  used on input line 275.
+Package luatex.def Info: images/pie-transparente.png  used on input line 288.
 (luatex.def)             Requested size: 578.15344pt x 76.60532pt.
 
-Overfull \hbox (61.00941pt too wide) in paragraph at lines 253--276
+Overfull \hbox (61.00941pt too wide) in paragraph at lines 266--289
 []|  [][][][][][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 253--276
+Overfull \hbox (6.0pt too wide) in paragraph at lines 266--289
 [][][][][][] 
  []
 
@@ -1585,72 +1821,78 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 253--276
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/ESTADISTICA.png, id=61, 1111.90407pt x 675.27281pt>
+<images/ESTADISTICA.png, id=68, 1111.90407pt x 675.27281pt>
 File: images/ESTADISTICA.png Graphic file (type png)
 <use images/ESTADISTICA.png>
-Package luatex.def Info: images/ESTADISTICA.png  used on input line 297.
+Package luatex.def Info: images/ESTADISTICA.png  used on input line 310.
 (luatex.def)             Requested size: 177.90828pt x 108.04585pt.
-<images/INFORMATICA.png, id=62, 166.6225pt x 168.63pt>
+<images/INFORMATICA.png, id=69, 166.6225pt x 168.63pt>
 File: images/INFORMATICA.png Graphic file (type png)
 <use images/INFORMATICA.png>
-Package luatex.def Info: images/INFORMATICA.png  used on input line 297.
+Package luatex.def Info: images/INFORMATICA.png  used on input line 310.
 (luatex.def)             Requested size: 108.30333pt x 109.60818pt.
-<images/CEFAC.png, id=63, 721.94719pt x 511.15968pt>
+<images/CEFAC.png, id=70, 721.94719pt x 511.15968pt>
 File: images/CEFAC.png Graphic file (type png)
 <use images/CEFAC.png>
-Package luatex.def Info: images/CEFAC.png  used on input line 297.
+Package luatex.def Info: images/CEFAC.png  used on input line 310.
 (luatex.def)             Requested size: 129.94489pt x 92.00476pt.
 File: images/pie-transparente.png Graphic file (type png)
 <use images/pie-transparente.png>
-Package luatex.def Info: images/pie-transparente.png  used on input line 299.
+Package luatex.def Info: images/pie-transparente.png  used on input line 312.
 (luatex.def)             Requested size: 578.15344pt x 76.60532pt.
 
-Overfull \hbox (0.68126pt too wide) in paragraph at lines 280--300
+Overfull \hbox (0.68126pt too wide) in paragraph at lines 293--313
 [] [][][][][][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 280--300
+Overfull \hbox (6.0pt too wide) in paragraph at lines 293--313
 [][][][][][] 
  []
 
 [6
 
 <./images/ESTADISTICA.png><./images/INFORMATICA.png><./images/CEFAC.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
 
-("./folleto - horizontal.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
-Package rerunfilecheck Info: File `"folleto - horizontal".out' has not changed.
+("./folleto - fuentes.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package rerunfilecheck Info: File `"folleto - fuentes".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.6pt have occurred.
+(Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28303 strings out of 494480
+ 28706 strings out of 494480
  100000,953878 words of node,token memory allocated
  493 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 59 glue_spec, 6 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:526,3:143,4:75,5:93,6:591,7:512,8:27,9:187,10:3,11:47
- 31329 multiletter control sequences out of 65536+600000
- 109 fonts using 11834423 bytes
- 48i,12n,65p,431b,514s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texm
-f/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/p
-ublic/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
-n17-regular.otf>
-Output written on folleto - horizontal.pdf (6 pages, 2250254 bytes).
+   avail lists: 1:1,2:526,3:144,4:75,5:76,6:583,7:511,8:27,9:188,10:11,11:59
+ 31426 multiletter control sequences out of 65536+600000
+ 113 fonts using 21974063 bytes
+ 48i,12n,66p,428b,516s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texl
+ive/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf></usr/share/texlive
+/texmf-dist/fonts/truetype/public/droid/DroidSansMono.ttf></usr/share/texlive/te
+xmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Bold.otf></usr/share/t
+exmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texlive/texmf-dist/
+fonts/truetype/public/dejavu/DejaVuSansMono-Bold.ttf></usr/share/texlive/texmf-d
+ist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf></usr/share/texlive/texmf-di
+st/fonts/truetype/typoland/lato/Lato-Bold.ttf></usr/share/texmf/fonts/opentype/p
+ublic/lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/pub
+lic/gfsdidot/GFSDidot.otf>
+Output written on folleto - fuentes.pdf (6 pages, 2305138 bytes).
 
-PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 131072)
+PDF statistics: 143 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
